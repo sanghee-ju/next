@@ -109,7 +109,7 @@ export async function getServerSideProps() {
     method: "GET",
     headers: {
       accept: "application/json",
-      Authorization: process.env.AUTH,
+      Authorization: AUTH,
     },
   };
 
